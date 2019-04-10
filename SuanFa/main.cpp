@@ -7,9 +7,22 @@
 //
 
 #include <iostream>
+#include "QuickSort.hpp"
+#include "BreadthFirstSearch.hpp"
+#include "DijkstraAlgorithm.hpp"
+#include "HeapSort.hpp"
+#include "MergeSort.hpp"
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+//    test_quickSort();
+//    testBreadthFirstSearch();
+//    test_dijkstraAlgorithm();
+//    test_HeapSort();
+    
+    test_mergeSort();
+    
     return 0;
 }
+
+
+
