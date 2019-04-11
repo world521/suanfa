@@ -12,14 +12,16 @@
 #include "DijkstraAlgorithm.hpp"
 #include "HeapSort.hpp"
 #include "MergeSort.hpp"
+#include "leetcode_003.hpp"
 
 int main(int argc, const char * argv[]) {
 //    test_quickSort();
 //    testBreadthFirstSearch();
 //    test_dijkstraAlgorithm();
 //    test_HeapSort();
+//    test_mergeSort();
     
-    test_mergeSort();
+    test_lengthOfLongestSubstring();
     
     return 0;
 }
