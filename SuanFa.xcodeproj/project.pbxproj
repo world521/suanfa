@@ -11,8 +11,11 @@
 		4F21B0A6224B5E720030EBB1 /* QuickSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F21B0A5224B5E720030EBB1 /* QuickSort.cpp */; };
 		4F48F3C4224CB5B300218215 /* DijkstraAlgorithm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F48F3C2224CB5B300218215 /* DijkstraAlgorithm.cpp */; };
 		4F8B944F2255E2BD00BD654C /* HeapSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F8B944D2255E2BD00BD654C /* HeapSort.cpp */; };
-		4F92A4E0225EE66800638532 /* leetcode_003.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F92A4DE225EE66800638532 /* leetcode_003.cpp */; };
 		4F9DF381225C6BE30072CBFB /* MergeSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F9DF37F225C6BE30072CBFB /* MergeSort.cpp */; };
+		4FA5AF8F25F9F548001A105D /* AddTwoNumbers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FA5AF8925F9F548001A105D /* AddTwoNumbers.cpp */; };
+		4FA5AF9025F9F548001A105D /* FindMedianSortedArrays.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FA5AF8C25F9F548001A105D /* FindMedianSortedArrays.cpp */; };
+		4FA5AF9125F9F548001A105D /* LengthOfLongestSubstring.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FA5AF8D25F9F548001A105D /* LengthOfLongestSubstring.cpp */; };
+		4FA5AF9225F9F548001A105D /* TwoSum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FA5AF8E25F9F548001A105D /* TwoSum.cpp */; };
 		4FA7FB592249B8AE00F18BCA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FA7FB582249B8AE00F18BCA /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -37,10 +40,16 @@
 		4F48F3C3224CB5B300218215 /* DijkstraAlgorithm.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DijkstraAlgorithm.hpp; sourceTree = "<group>"; };
 		4F8B944D2255E2BD00BD654C /* HeapSort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HeapSort.cpp; sourceTree = "<group>"; };
 		4F8B944E2255E2BD00BD654C /* HeapSort.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = HeapSort.hpp; sourceTree = "<group>"; };
-		4F92A4DE225EE66800638532 /* leetcode_003.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = leetcode_003.cpp; sourceTree = "<group>"; };
-		4F92A4DF225EE66800638532 /* leetcode_003.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = leetcode_003.hpp; sourceTree = "<group>"; };
 		4F9DF37F225C6BE30072CBFB /* MergeSort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MergeSort.cpp; sourceTree = "<group>"; };
 		4F9DF380225C6BE30072CBFB /* MergeSort.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MergeSort.hpp; sourceTree = "<group>"; };
+		4FA5AF8725F9F548001A105D /* LengthOfLongestSubstring.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = LengthOfLongestSubstring.hpp; sourceTree = "<group>"; };
+		4FA5AF8825F9F548001A105D /* FindMedianSortedArrays.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = FindMedianSortedArrays.hpp; sourceTree = "<group>"; };
+		4FA5AF8925F9F548001A105D /* AddTwoNumbers.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AddTwoNumbers.cpp; sourceTree = "<group>"; };
+		4FA5AF8A25F9F548001A105D /* TwoSum.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = TwoSum.hpp; sourceTree = "<group>"; };
+		4FA5AF8B25F9F548001A105D /* AddTwoNumbers.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = AddTwoNumbers.hpp; sourceTree = "<group>"; };
+		4FA5AF8C25F9F548001A105D /* FindMedianSortedArrays.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FindMedianSortedArrays.cpp; sourceTree = "<group>"; };
+		4FA5AF8D25F9F548001A105D /* LengthOfLongestSubstring.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LengthOfLongestSubstring.cpp; sourceTree = "<group>"; };
+		4FA5AF8E25F9F548001A105D /* TwoSum.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TwoSum.cpp; sourceTree = "<group>"; };
 		4FA7FB552249B8AE00F18BCA /* SuanFa */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SuanFa; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FA7FB582249B8AE00F18BCA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -56,6 +65,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4FA5AF8525F9F45C001A105D /* Algorithms4th */ = {
+			isa = PBXGroup;
+			children = (
+				4F21B0A1224B41740030EBB1 /* BreadthFirstSearch.cpp */,
+				4F21B0A2224B41740030EBB1 /* BreadthFirstSearch.hpp */,
+				4F21B0A5224B5E720030EBB1 /* QuickSort.cpp */,
+				4F21B0A4224B5E720030EBB1 /* QuickSort.hpp */,
+				4F48F3C2224CB5B300218215 /* DijkstraAlgorithm.cpp */,
+				4F48F3C3224CB5B300218215 /* DijkstraAlgorithm.hpp */,
+				4F8B944D2255E2BD00BD654C /* HeapSort.cpp */,
+				4F8B944E2255E2BD00BD654C /* HeapSort.hpp */,
+				4F9DF37F225C6BE30072CBFB /* MergeSort.cpp */,
+				4F9DF380225C6BE30072CBFB /* MergeSort.hpp */,
+			);
+			path = Algorithms4th;
+			sourceTree = "<group>";
+		};
+		4FA5AF8625F9F536001A105D /* LeetCode */ = {
+			isa = PBXGroup;
+			children = (
+				4FA5AF8925F9F548001A105D /* AddTwoNumbers.cpp */,
+				4FA5AF8B25F9F548001A105D /* AddTwoNumbers.hpp */,
+				4FA5AF8C25F9F548001A105D /* FindMedianSortedArrays.cpp */,
+				4FA5AF8825F9F548001A105D /* FindMedianSortedArrays.hpp */,
+				4FA5AF8D25F9F548001A105D /* LengthOfLongestSubstring.cpp */,
+				4FA5AF8725F9F548001A105D /* LengthOfLongestSubstring.hpp */,
+				4FA5AF8E25F9F548001A105D /* TwoSum.cpp */,
+				4FA5AF8A25F9F548001A105D /* TwoSum.hpp */,
+			);
+			path = LeetCode;
+			sourceTree = "<group>";
+		};
 		4FA7FB4C2249B8AE00F18BCA = {
 			isa = PBXGroup;
 			children = (
@@ -76,18 +117,8 @@
 			isa = PBXGroup;
 			children = (
 				4FA7FB582249B8AE00F18BCA /* main.cpp */,
-				4F21B0A1224B41740030EBB1 /* BreadthFirstSearch.cpp */,
-				4F21B0A2224B41740030EBB1 /* BreadthFirstSearch.hpp */,
-				4F21B0A5224B5E720030EBB1 /* QuickSort.cpp */,
-				4F21B0A4224B5E720030EBB1 /* QuickSort.hpp */,
-				4F48F3C2224CB5B300218215 /* DijkstraAlgorithm.cpp */,
-				4F48F3C3224CB5B300218215 /* DijkstraAlgorithm.hpp */,
-				4F8B944D2255E2BD00BD654C /* HeapSort.cpp */,
-				4F8B944E2255E2BD00BD654C /* HeapSort.hpp */,
-				4F9DF37F225C6BE30072CBFB /* MergeSort.cpp */,
-				4F9DF380225C6BE30072CBFB /* MergeSort.hpp */,
-				4F92A4DE225EE66800638532 /* leetcode_003.cpp */,
-				4F92A4DF225EE66800638532 /* leetcode_003.hpp */,
+				4FA5AF8625F9F536001A105D /* LeetCode */,
+				4FA5AF8525F9F45C001A105D /* Algorithms4th */,
 			);
 			path = SuanFa;
 			sourceTree = "<group>";
@@ -118,7 +149,7 @@
 		4FA7FB4D2249B8AE00F18BCA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1010;
+				LastUpgradeCheck = 1150;
 				ORGANIZATIONNAME = fqs;
 				TargetAttributes = {
 					4FA7FB542249B8AE00F18BCA = {
@@ -132,6 +163,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 4FA7FB4C2249B8AE00F18BCA;
 			productRefGroup = 4FA7FB562249B8AE00F18BCA /* Products */;
@@ -149,10 +181,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F21B0A3224B41740030EBB1 /* BreadthFirstSearch.cpp in Sources */,
+				4FA5AF9125F9F548001A105D /* LengthOfLongestSubstring.cpp in Sources */,
+				4FA5AF9225F9F548001A105D /* TwoSum.cpp in Sources */,
 				4F48F3C4224CB5B300218215 /* DijkstraAlgorithm.cpp in Sources */,
 				4F21B0A6224B5E720030EBB1 /* QuickSort.cpp in Sources */,
-				4F92A4E0225EE66800638532 /* leetcode_003.cpp in Sources */,
+				4FA5AF8F25F9F548001A105D /* AddTwoNumbers.cpp in Sources */,
 				4FA7FB592249B8AE00F18BCA /* main.cpp in Sources */,
+				4FA5AF9025F9F548001A105D /* FindMedianSortedArrays.cpp in Sources */,
 				4F9DF381225C6BE30072CBFB /* MergeSort.cpp in Sources */,
 				4F8B944F2255E2BD00BD654C /* HeapSort.cpp in Sources */,
 			);
@@ -275,6 +310,7 @@
 		4FA7FB5D2249B8AE00F18BCA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -283,6 +319,7 @@
 		4FA7FB5E2249B8AE00F18BCA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
