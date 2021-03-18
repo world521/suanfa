@@ -10,6 +10,7 @@
 		4F21B0A3224B41740030EBB1 /* BreadthFirstSearch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F21B0A1224B41740030EBB1 /* BreadthFirstSearch.cpp */; };
 		4F21B0A6224B5E720030EBB1 /* QuickSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F21B0A5224B5E720030EBB1 /* QuickSort.cpp */; };
 		4F48F3C4224CB5B300218215 /* DijkstraAlgorithm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F48F3C2224CB5B300218215 /* DijkstraAlgorithm.cpp */; };
+		4F5B8E342602ECEA0067499C /* LongestPalindrome.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F5B8E322602ECEA0067499C /* LongestPalindrome.cpp */; };
 		4F8B944F2255E2BD00BD654C /* HeapSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F8B944D2255E2BD00BD654C /* HeapSort.cpp */; };
 		4F9DF381225C6BE30072CBFB /* MergeSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F9DF37F225C6BE30072CBFB /* MergeSort.cpp */; };
 		4FA5AF8F25F9F548001A105D /* AddTwoNumbers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FA5AF8925F9F548001A105D /* AddTwoNumbers.cpp */; };
@@ -38,6 +39,8 @@
 		4F21B0A5224B5E720030EBB1 /* QuickSort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = QuickSort.cpp; sourceTree = "<group>"; };
 		4F48F3C2224CB5B300218215 /* DijkstraAlgorithm.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DijkstraAlgorithm.cpp; sourceTree = "<group>"; };
 		4F48F3C3224CB5B300218215 /* DijkstraAlgorithm.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DijkstraAlgorithm.hpp; sourceTree = "<group>"; };
+		4F5B8E322602ECEA0067499C /* LongestPalindrome.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LongestPalindrome.cpp; sourceTree = "<group>"; };
+		4F5B8E332602ECEA0067499C /* LongestPalindrome.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LongestPalindrome.hpp; sourceTree = "<group>"; };
 		4F8B944D2255E2BD00BD654C /* HeapSort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HeapSort.cpp; sourceTree = "<group>"; };
 		4F8B944E2255E2BD00BD654C /* HeapSort.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = HeapSort.hpp; sourceTree = "<group>"; };
 		4F9DF37F225C6BE30072CBFB /* MergeSort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MergeSort.cpp; sourceTree = "<group>"; };
@@ -85,14 +88,16 @@
 		4FA5AF8625F9F536001A105D /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
-				4FA5AF8925F9F548001A105D /* AddTwoNumbers.cpp */,
-				4FA5AF8B25F9F548001A105D /* AddTwoNumbers.hpp */,
-				4FA5AF8C25F9F548001A105D /* FindMedianSortedArrays.cpp */,
-				4FA5AF8825F9F548001A105D /* FindMedianSortedArrays.hpp */,
-				4FA5AF8D25F9F548001A105D /* LengthOfLongestSubstring.cpp */,
-				4FA5AF8725F9F548001A105D /* LengthOfLongestSubstring.hpp */,
-				4FA5AF8E25F9F548001A105D /* TwoSum.cpp */,
 				4FA5AF8A25F9F548001A105D /* TwoSum.hpp */,
+				4FA5AF8E25F9F548001A105D /* TwoSum.cpp */,
+				4FA5AF8B25F9F548001A105D /* AddTwoNumbers.hpp */,
+				4FA5AF8925F9F548001A105D /* AddTwoNumbers.cpp */,
+				4FA5AF8725F9F548001A105D /* LengthOfLongestSubstring.hpp */,
+				4FA5AF8D25F9F548001A105D /* LengthOfLongestSubstring.cpp */,
+				4FA5AF8825F9F548001A105D /* FindMedianSortedArrays.hpp */,
+				4FA5AF8C25F9F548001A105D /* FindMedianSortedArrays.cpp */,
+				4F5B8E332602ECEA0067499C /* LongestPalindrome.hpp */,
+				4F5B8E322602ECEA0067499C /* LongestPalindrome.cpp */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -187,6 +192,7 @@
 				4F21B0A6224B5E720030EBB1 /* QuickSort.cpp in Sources */,
 				4FA5AF8F25F9F548001A105D /* AddTwoNumbers.cpp in Sources */,
 				4FA7FB592249B8AE00F18BCA /* main.cpp in Sources */,
+				4F5B8E342602ECEA0067499C /* LongestPalindrome.cpp in Sources */,
 				4FA5AF9025F9F548001A105D /* FindMedianSortedArrays.cpp in Sources */,
 				4F9DF381225C6BE30072CBFB /* MergeSort.cpp in Sources */,
 				4F8B944F2255E2BD00BD654C /* HeapSort.cpp in Sources */,
