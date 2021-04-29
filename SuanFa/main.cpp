@@ -55,14 +55,14 @@
  }
  */
 
-#include "LongestPalindrome.hpp"
-
-int main(int argc, const char * argv[]) {
-    Solution s;
-    s.longestPalindrome("hello world");
-    
-    return 0;
-}
+//#include "LongestPalindrome.hpp"
+//
+//int main(int argc, const char * argv[]) {
+//    Solution s;
+//    s.longestPalindrome("hello world");
+//    
+//    return 0;
+//}
 
 
 

@@ -11,4 +11,6 @@
 
 #include <stdio.h>
 
+bool findNum(int *metrix, int rows, int columns, int number);
+
 #endif /* sword_03_hpp */

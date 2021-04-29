@@ -7,3 +7,8 @@
 //
 
 #include "sword_05_tree.hpp"
+
+int main() {
+    BinaryTreeNode n0 = BinaryTreeNode();
+    return 0;
+}

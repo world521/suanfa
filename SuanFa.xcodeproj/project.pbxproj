@@ -14,11 +14,15 @@
 		4F89D93F2609D3E000F35EDC /* stl1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F89D93D2609D3E000F35EDC /* stl1.cpp */; };
 		4F8B944F2255E2BD00BD654C /* HeapSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F8B944D2255E2BD00BD654C /* HeapSort.cpp */; };
 		4F9DF381225C6BE30072CBFB /* MergeSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F9DF37F225C6BE30072CBFB /* MergeSort.cpp */; };
+		4F9E9EDE263A600E0074149E /* sword_05.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F9E9EDC263A600E0074149E /* sword_05.cpp */; };
+		4F9E9EE1263A91970074149E /* sword_05_tree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F9E9EDF263A91970074149E /* sword_05_tree.cpp */; };
 		4FA5AF8F25F9F548001A105D /* AddTwoNumbers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FA5AF8925F9F548001A105D /* AddTwoNumbers.cpp */; };
 		4FA5AF9025F9F548001A105D /* FindMedianSortedArrays.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FA5AF8C25F9F548001A105D /* FindMedianSortedArrays.cpp */; };
 		4FA5AF9125F9F548001A105D /* LengthOfLongestSubstring.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FA5AF8D25F9F548001A105D /* LengthOfLongestSubstring.cpp */; };
 		4FA5AF9225F9F548001A105D /* TwoSum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FA5AF8E25F9F548001A105D /* TwoSum.cpp */; };
 		4FA7FB592249B8AE00F18BCA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FA7FB582249B8AE00F18BCA /* main.cpp */; };
+		4FBAFFA02637AABF0008F085 /* sword_03.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FBAFF9E2637AABF0008F085 /* sword_03.cpp */; };
+		4FBAFFA32637D9490008F085 /* sword_04.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FBAFFA12637D9490008F085 /* sword_04.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -48,6 +52,10 @@
 		4F8B944E2255E2BD00BD654C /* HeapSort.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = HeapSort.hpp; sourceTree = "<group>"; };
 		4F9DF37F225C6BE30072CBFB /* MergeSort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MergeSort.cpp; sourceTree = "<group>"; };
 		4F9DF380225C6BE30072CBFB /* MergeSort.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MergeSort.hpp; sourceTree = "<group>"; };
+		4F9E9EDC263A600E0074149E /* sword_05.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = sword_05.cpp; sourceTree = "<group>"; };
+		4F9E9EDD263A600E0074149E /* sword_05.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = sword_05.hpp; sourceTree = "<group>"; };
+		4F9E9EDF263A91970074149E /* sword_05_tree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = sword_05_tree.cpp; sourceTree = "<group>"; };
+		4F9E9EE0263A91970074149E /* sword_05_tree.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = sword_05_tree.hpp; sourceTree = "<group>"; };
 		4FA5AF8725F9F548001A105D /* LengthOfLongestSubstring.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = LengthOfLongestSubstring.hpp; sourceTree = "<group>"; };
 		4FA5AF8825F9F548001A105D /* FindMedianSortedArrays.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = FindMedianSortedArrays.hpp; sourceTree = "<group>"; };
 		4FA5AF8925F9F548001A105D /* AddTwoNumbers.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AddTwoNumbers.cpp; sourceTree = "<group>"; };
@@ -58,6 +66,10 @@
 		4FA5AF8E25F9F548001A105D /* TwoSum.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TwoSum.cpp; sourceTree = "<group>"; };
 		4FA7FB552249B8AE00F18BCA /* SuanFa */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SuanFa; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FA7FB582249B8AE00F18BCA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		4FBAFF9E2637AABF0008F085 /* sword_03.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = sword_03.cpp; sourceTree = "<group>"; };
+		4FBAFF9F2637AABF0008F085 /* sword_03.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = sword_03.hpp; sourceTree = "<group>"; };
+		4FBAFFA12637D9490008F085 /* sword_04.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = sword_04.cpp; sourceTree = "<group>"; };
+		4FBAFFA22637D9490008F085 /* sword_04.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = sword_04.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,13 +83,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4F89D93C2609D3B800F35EDC /* cpp */ = {
+		4F89D93C2609D3B800F35EDC /* stl */ = {
 			isa = PBXGroup;
 			children = (
 				4F89D93E2609D3E000F35EDC /* stl1.hpp */,
 				4F89D93D2609D3E000F35EDC /* stl1.cpp */,
 			);
-			path = cpp;
+			path = stl;
 			sourceTree = "<group>";
 		};
 		4FA5AF8525F9F45C001A105D /* Algorithms4th */ = {
@@ -134,11 +146,27 @@
 			isa = PBXGroup;
 			children = (
 				4FA7FB582249B8AE00F18BCA /* main.cpp */,
-				4F89D93C2609D3B800F35EDC /* cpp */,
+				4F89D93C2609D3B800F35EDC /* stl */,
+				4FBAFF9D2637AA650008F085 /* sword */,
 				4FA5AF8625F9F536001A105D /* LeetCode */,
 				4FA5AF8525F9F45C001A105D /* Algorithms4th */,
 			);
 			path = SuanFa;
+			sourceTree = "<group>";
+		};
+		4FBAFF9D2637AA650008F085 /* sword */ = {
+			isa = PBXGroup;
+			children = (
+				4FBAFF9F2637AABF0008F085 /* sword_03.hpp */,
+				4FBAFF9E2637AABF0008F085 /* sword_03.cpp */,
+				4FBAFFA22637D9490008F085 /* sword_04.hpp */,
+				4FBAFFA12637D9490008F085 /* sword_04.cpp */,
+				4F9E9EDD263A600E0074149E /* sword_05.hpp */,
+				4F9E9EDC263A600E0074149E /* sword_05.cpp */,
+				4F9E9EE0263A91970074149E /* sword_05_tree.hpp */,
+				4F9E9EDF263A91970074149E /* sword_05_tree.cpp */,
+			);
+			path = sword;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,7 +227,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F21B0A3224B41740030EBB1 /* BreadthFirstSearch.cpp in Sources */,
+				4FBAFFA32637D9490008F085 /* sword_04.cpp in Sources */,
+				4FBAFFA02637AABF0008F085 /* sword_03.cpp in Sources */,
 				4FA5AF9125F9F548001A105D /* LengthOfLongestSubstring.cpp in Sources */,
+				4F9E9EE1263A91970074149E /* sword_05_tree.cpp in Sources */,
 				4FA5AF9225F9F548001A105D /* TwoSum.cpp in Sources */,
 				4F48F3C4224CB5B300218215 /* DijkstraAlgorithm.cpp in Sources */,
 				4F21B0A6224B5E720030EBB1 /* QuickSort.cpp in Sources */,
@@ -208,6 +239,7 @@
 				4FA7FB592249B8AE00F18BCA /* main.cpp in Sources */,
 				4F5B8E342602ECEA0067499C /* LongestPalindrome.cpp in Sources */,
 				4FA5AF9025F9F548001A105D /* FindMedianSortedArrays.cpp in Sources */,
+				4F9E9EDE263A600E0074149E /* sword_05.cpp in Sources */,
 				4F9DF381225C6BE30072CBFB /* MergeSort.cpp in Sources */,
 				4F8B944F2255E2BD00BD654C /* HeapSort.cpp in Sources */,
 			);

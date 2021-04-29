@@ -11,4 +11,10 @@
 
 #include <stdio.h>
 
+struct BinaryTreeNode {
+    int value;
+    BinaryTreeNode *left;
+    BinaryTreeNode *right;
+};
+
 #endif /* sword_05_tree_hpp */
